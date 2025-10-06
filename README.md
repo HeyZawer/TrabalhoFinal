@@ -112,11 +112,11 @@ TRABALHOFINAL/
 Crie o banco de dados e a tabela de usuários com a coluna `nivel_acesso`. Execute o seguinte script no seu cliente MySQL:
 
 ```sql
--- 1. CRIA O NOVO BANCO DE DADOS
+-- 1. CRIA O BANCO DE DADOS
 CREATE DATABASE banco_de_dados;
 USE banco_de_dados;
 
--- 2. CRIA A TABELA 'usuarios' COM A COLUNA 'nivel_acesso'
+-- 2. CRIA A TABELA 'usuarios'
 CREATE TABLE usuarios(
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(255) NOT NULL,
