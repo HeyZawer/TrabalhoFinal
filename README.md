@@ -136,7 +136,7 @@ INSERT INTO usuarios (nome, email, senha, nivel_acesso) VALUES (
     'admin'
 );
 ```
-Fluxo de Teste
+## Fluxo de Teste
 Login Admin: Use E-mail: admin@email.com e Senha: 123456.
 
 Verifique a Função Admin: O botão "Mostrar Cadastros dos Usuários" deve aparecer no dashboard.
@@ -147,7 +147,7 @@ Teste o Usuário Comum: Cadastre um novo usuário pelo index.php e logue com ele
 
 ---
 
-Próximos Passos (Evolução para a Wiki)
+## Próximos Passos (Evolução para a Wiki)
 Estrutura de Conteúdo: Criar tabelas específicas para personagens, relíquias, builds, e tier_lists.
 
 CRUD Admin: Implementar o formulário completo (CRUD) na área administrativa (cadastro_usuario.php) para o administrador poder inserir e editar os dados da Wiki.
