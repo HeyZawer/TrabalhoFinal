@@ -75,7 +75,7 @@ O sistema de Login/Admin implementado agora é a base para o futuro gerenciament
 ## Estrutura do Projeto
 
 A estrutura de arquivos segue o padrão de aplicações PHP simples:
-
+```
 TRABALHOFINAL/
 ├── css/
 │   └── style.css           # Estilos para Dashboard e Formulários
@@ -90,7 +90,7 @@ TRABALHOFINAL/
 ├── logout.php              # Encerra a sessão e remove cookies.
 ├── sem_permissao.php       # Página de erro para acesso negado.
 └── verifica_sessao.php     # Função para garantir que o usuário está logado.
-
+```
 ---
 
 ## Requisitos
